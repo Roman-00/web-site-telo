@@ -5,7 +5,9 @@ const path = require('path');
 // eslint-disable-next-line no-undef
 module.exports = {
 	entry: {
-		main: './src/index.js'
+		main: './src/index.js',
+		mozaika: './src/indexMozaika.js',
+		schelkovo: './src/indexSchelkovo.js'
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist'),

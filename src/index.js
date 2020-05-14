@@ -1,5 +1,6 @@
-// Подключение  Полифилов
+'use strict';
 
+// Подключение  Полифилов
 import "@babel/polyfill";
 import 'formdata-polyfill';
 import 'nodelist-foreach-polyfill';
@@ -10,7 +11,6 @@ import 'fetch-polyfill';
 
 
 //Ипортируем наши функции из папки modules
-
 import header from './modules/header';
 
 header();
