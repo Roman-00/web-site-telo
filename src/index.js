@@ -12,5 +12,18 @@ import 'fetch-polyfill';
 
 //Ипортируем наши функции из папки modules
 import header from './modules/header';
+import popupMenu from './modules/popupMenu';
+import scrollDocument from './modules/scrollDocument';
+import mainSlider from './modules/mainSlider';
 
+// Вызываем функцию header
 header();
+
+// Вызываем функцию popupMenu
+popupMenu();
+
+//Вызываем функцию scrollDocument
+scrollDocument();
+
+//Вызываем функцию mainSlider
+mainSlider();
