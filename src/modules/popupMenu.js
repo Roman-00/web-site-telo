@@ -11,7 +11,7 @@ const popupMenu = () => {
 
       if(target && target.closest('.menu-button')) {
         popupMenu.style.display = 'flex';
-      } else if(target && (target.tagName === 'A' || !target.classList.contains('close-menu-btn>img'))) {
+      } else if(target && (target.tagName === 'A' || target.classList.contains('close-menu-button'))) {
         popupMenu.style.display = 'none';
       }
     });
