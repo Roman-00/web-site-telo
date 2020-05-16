@@ -8,6 +8,8 @@ import mainSlider from './modules/mainSlider';
 import servicesSlider from './modules/servicesSlider';
 import sliderGallery from './modules/sliderGallery';
 import calc from './modules/calc';
+import validationForms from './modules/validationForms';
+import sendForms from './modules/sendForms';
 
 // Вызываем функцию header
 header();
@@ -20,6 +22,12 @@ scrollDocument();
 
 //Вызываем функцию mainSlider
 mainSlider();
+
+//Вызываем функцию отправки формы 
+sendForms();
+
+//Вызываем функцию валидации
+validationForms();
 
 //Вызов функции слайдер в блоке srvices
 servicesSlider();
