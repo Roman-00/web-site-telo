@@ -8,7 +8,7 @@ const validationForms = () => {
 			const target = event.target;
 
 			if (target.name === 'phone') {
-				target.value = target.value.replace(/^[0-9+]{13}$/gi, '');
+				target.value = target.value.replace(/^[0-9+]{13}$/, '');
 			}
 
 			if (target.name === 'name' || target.name === 'user_message') {
