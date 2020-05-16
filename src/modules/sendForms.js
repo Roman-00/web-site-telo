@@ -60,9 +60,7 @@ const sendForm = () => {
                 if (response.status !== 200) {
                     throw new Error('status network');
                 }
-
                 statusMessage.remove();
-
                 popupStatus();
 
                 //После отправки формы удаляются значения и стили
@@ -93,6 +91,9 @@ const sendForm = () => {
                 thanks.style.display = 'none';
             }
         });
+        setTimeout(() => {
+            thanks.style.display = 'none';
+        }, 3000);
     };
 
     let applyStyle = () => {
