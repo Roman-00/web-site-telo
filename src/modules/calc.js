@@ -1,3 +1,4 @@
+'use strict';
 const calc = () => {
   const cardOrder = document.querySelector('#card_order'),
   priceTotal = document.querySelector('.price-message>input'),
@@ -31,7 +32,7 @@ const calc = () => {
   };
 
   priceTotal.addEventListener('change', () => {
-      invalidatePrice();
+    invalidatePrice();
   });
 
   const invalidatePrice = ()=> {
@@ -46,5 +47,7 @@ const calc = () => {
       }   
       showPrice.textContent = Math.ceil(priceEl.price * discount);
   };
+
 };
+
 export default calc;
