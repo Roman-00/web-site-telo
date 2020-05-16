@@ -34,14 +34,6 @@
         display: none;
     }
 
-    .services-slider {
-        position: relative;
-    }
-
-    .slide-services {
-        width: 255px;
-    }
-
     .slider-arrow {
         display: block;
         width: 36px;
@@ -60,14 +52,6 @@
     .slider-arrow.next {
         background-image: url(../images/right-arrow.png);
         background-position: 50% 50%;
-    }
-
-    .slide-services.active {
-        display: block;
-    }
-
-    .slide-services {
-        display: none;
     }
 
     .send-text {
