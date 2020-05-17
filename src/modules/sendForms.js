@@ -122,5 +122,4 @@ const sendForm = () => {
     };
 };
 
-// sendForm();
 export default sendForm;

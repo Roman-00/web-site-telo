@@ -22,14 +22,6 @@ const sliderGallery = () => {
       elem[index].style.display = 'block';
   };
 
-  /*const prevDot =(elem, index, strClass) => {
-      elem[index].classList.remove(strClass);
-  };
-  
-  const nextDot =(elem, index, strClass) => {
-      elem[index].classList.add(strClass);
-  };*/
-
   let currentSlide = 0,
   interval = 0;
   const autoPlay = () => {
@@ -76,8 +68,6 @@ const sliderGallery = () => {
           currentSlide = slides.length -1 ;
       } 
       nextSlide(slides,currentSlide);
-      //nextDot(dots,currentSlide, 'dot-active');
-
   });
 
   gallerySlider.addEventListener('mouseover', (event) => {
