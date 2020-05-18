@@ -10,7 +10,10 @@ import sliderGallery from './modules/sliderGallery';
 import calc from './modules/calc';
 import validationForms from './modules/validationForms';
 import sendForms from './modules/sendForms';
+import smoothScrolling from './modules/smoothScrolling';
 
+//Вызываем функцию smothScrolling
+smoothScrolling();
 
 //Вызываем функцию валидации
 validationForms();
