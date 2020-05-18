@@ -1,6 +1,6 @@
 'use strict';
 
-const validator = () => {
+const validationForms = () => {
 class Validator {
     constructor({
         selector,
@@ -208,4 +208,4 @@ const validForm2 = new Validator({
 };
 
 // validator();
-export default validator;
+export default validationForms;
