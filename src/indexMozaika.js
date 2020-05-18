@@ -11,6 +11,10 @@ import calc from './modules/calc';
 import validationForms from './modules/validationForms';
 import sendForms from './modules/sendForms';
 
+
+//Вызываем функцию валидации
+validationForms();
+
 // Вызываем функцию header
 header();
 
@@ -25,9 +29,6 @@ mainSlider();
 
 //Вызываем функцию отправки формы 
 sendForms();
-
-//Вызываем функцию валидации
-validationForms();
 
 //Вызов функции слайдер в блоке srvices
 servicesSlider();
